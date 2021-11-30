@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <title>My Portofolio | Handri Firdaus</title>
+</head>
+
+<body>
+    <h1 class="text-primary">Hello, my handri</h1>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+</body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">MENU</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link" href="#">Project</a>
+                <a class="nav-link disabled">Disabled</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<form class="was-validated">
+    <div class="mb-3">
+        <label for="validationTextarea">Textarea</label>
+        <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea"
+            required></textarea>
+        <div class="invalid-feedback">
+            Please enter a message in the textarea.
+        </div>
+    </div>
+
+    <div class="custom-control custom-checkbox mb-3">
+        <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+        <label class="custom-control-label" for="customControlValidation1">Check this custom checkbox</label>
+        <div class="invalid-feedback">Example invalid feedback text</div>
+    </div>
+
+    <div class="custom-control custom-radio">
+        <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
+        <label class="custom-control-label" for="customControlValidation2">Toggle this custom radio</label>
+    </div>
+    <div class="custom-control custom-radio mb-3">
+        <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
+        <label class="custom-control-label" for="customControlValidation3">Or toggle this other custom radio</label>
+        <div class="invalid-feedback">More example invalid feedback text</div>
+    </div>
+
+    <div class="mb-3">
+        <select class="custom-select" required>
+            <option value="">Choose...</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+        <div class="invalid-feedback">Example invalid custom select feedback</div>
+    </div>
+
+    <div class="custom-file mb-3">
+        <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+        <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+        <div class="invalid-feedback">Example invalid custom file feedback</div>
+    </div>
+
+    <div class="mb-3">
+        <div class="input-group is-invalid">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="validatedInputGroupPrepend">@</span>
+            </div>
+            <input type="text" class="form-control is-invalid" aria-describedby="validatedInputGroupPrepend" required>
+        </div>
+        <div class="invalid-feedback">
+            Example invalid input group feedback
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <div class="input-group is-invalid">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="validatedInputGroupSelect">Options</label>
+            </div>
+            <select class="custom-select" id="validatedInputGroupSelect" required>
+                <option value="">Choose...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+        </div>
+        <div class="invalid-feedback">
+            Example invalid input group feedback
+        </div>
+    </div>
+
+    <div class="input-group is-invalid">
+        <div class="custom-file">
+            <input type="file" class="custom-file-input" id="validatedInputGroupCustomFile" required>
+            <label class="custom-file-label" for="validatedInputGroupCustomFile">Choose file...</label>
+        </div>
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+    </div>
+    <div class="invalid-feedback">
+        Example invalid input group feedback
+    </div>
+</form>
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="www.firdaushandri88.blogspot.com">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+</nav>
+
+<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <img src="..." class="rounded mr-2" alt="...">
+        <strong class="mr-auto">Bootstrap</strong>
+        <small class="text-muted">just now</small>
+        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="toast-body">
+        See? Just like this.
+    </div>
+</div>
+
+<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <img src="..." class="rounded mr-2" alt="...">
+        <strong class="mr-auto">Bootstrap</strong>
+        <small class="text-muted">2 seconds ago</small>
+        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="toast-body">
+        Heads up, toasts will stack automatically
+    </div>
+</div>
+
+</html>
